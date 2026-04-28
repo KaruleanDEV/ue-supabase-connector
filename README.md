@@ -66,13 +66,4 @@ PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engi
 - Add `SupabaseConnector.cpp` and header files to your plugin/module source.
 
 ## Security notes
-
-- Never commit API keys or secrets to Git.
-- Deploy environment values via CI/CD secrets or runtime vault.
 - Use `supabase-auth` policies and row-level security to protect data access.
-
-## Future enhancements
-
-- Add token refresh helper
-- Add logout and `Authorization: Bearer` headers wrapper
-- Add generic CRUD query helpers for Supabase DB and Storage.
